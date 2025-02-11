@@ -1,0 +1,13 @@
+* NGSPICE file created from nor2gate.ext - technology: sky130A
+
+.subckt nor2gate VDD GND NOR_OUT A B
+X0 NOR_OUT B a_n120_610# VDD sky130_fd_pr__pfet_01v8 ad=1.32 pd=5.6 as=0.605 ps=2.75 w=2.2 l=0.15
+**devattr s=24200,550 d=52800,1120
+X1 NOR_OUT A GND GND sky130_fd_pr__nfet_01v8 ad=0.316 pd=1.7 as=0.661 ps=3.45 w=1.15 l=0.15
+**devattr s=25300,680 d=12650,340
+X2 GND B NOR_OUT GND sky130_fd_pr__nfet_01v8 ad=0.661 pd=3.45 as=0.316 ps=1.7 w=1.15 l=0.15
+**devattr s=12650,340 d=27600,700
+X3 a_n120_610# A VDD VDD sky130_fd_pr__pfet_01v8 ad=0.605 pd=2.75 as=1.21 ps=5.5 w=2.2 l=0.15
+**devattr s=48400,1100 d=24200,550
+.ends
+

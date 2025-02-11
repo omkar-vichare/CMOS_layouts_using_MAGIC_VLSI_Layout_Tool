@@ -1,0 +1,37 @@
+* NGSPICE file created from xor2gate.ext - technology: sky130A
+
+.subckt xor2gate B A VDD GND SUM_OUT CARRY_OUT
+X0 a_n820_n620# B VDD VDD sky130_fd_pr__pfet_01v8 ad=1.1 pd=5.4 as=0.99 ps=5.3 w=2.2 l=0.15
+**devattr s=39600,1060 d=44000,1080
+X1 CARRY_OUT a_n950_n620# GND GND sky130_fd_pr__nfet_01v8 ad=0.138 pd=1.05 as=0.256 ps=1.66 w=0.55 l=0.15
+**devattr s=11000,420 d=5500,210
+X2 a_80_0# A VDD VDD sky130_fd_pr__pfet_01v8 ad=0.55 pd=2.7 as=0.99 ps=5.3 w=2.2 l=0.15
+**devattr s=39600,1060 d=22000,540
+X3 VDD A a_n950_n620# VDD sky130_fd_pr__pfet_01v8 ad=0.99 pd=5.3 as=1.1 ps=5.4 w=2.2 l=0.15
+**devattr s=44000,1080 d=39600,1060
+X4 GND a_n820_n620# CARRY_OUT GND sky130_fd_pr__nfet_01v8 ad=0.256 pd=1.66 as=0.138 ps=1.05 w=0.55 l=0.15
+**devattr s=5500,210 d=9900,400
+X5 a_n50_n590# a_n820_n620# SUM_OUT GND sky130_fd_pr__nfet_01v8 ad=0.412 pd=2.4 as=0.275 ps=1.6 w=1.1 l=0.15
+**devattr s=11000,320 d=22000,640
+X6 a_n820_n620# B GND GND sky130_fd_pr__nfet_01v8 ad=0.55 pd=3.2 as=0.512 ps=3.32 w=1.1 l=0.15
+**devattr s=19800,620 d=22000,640
+X7 a_500_0# B SUM_OUT VDD sky130_fd_pr__pfet_01v8 ad=0.55 pd=2.7 as=1.1 ps=5.4 w=2.2 l=0.15
+**devattr s=44000,1080 d=22000,540
+X8 GND a_n950_n620# a_n50_n590# GND sky130_fd_pr__nfet_01v8 ad=0.512 pd=3.32 as=0.412 ps=2.4 w=1.1 l=0.15
+**devattr s=11000,320 d=19800,620
+X9 GND A a_n950_n620# GND sky130_fd_pr__nfet_01v8 ad=0.512 pd=3.32 as=0.55 ps=3.2 w=1.1 l=0.15
+**devattr s=22000,640 d=19800,620
+X10 SUM_OUT a_n820_n620# a_80_0# VDD sky130_fd_pr__pfet_01v8 ad=1.1 pd=5.4 as=0.55 ps=2.7 w=2.2 l=0.15
+**devattr s=22000,540 d=44000,1080
+X11 a_n50_n590# B GND GND sky130_fd_pr__nfet_01v8 ad=0.412 pd=2.4 as=0.512 ps=3.32 w=1.1 l=0.15
+**devattr s=22000,640 d=11000,320
+X12 VDD a_n950_n620# a_500_0# VDD sky130_fd_pr__pfet_01v8 ad=0.99 pd=5.3 as=0.55 ps=2.7 w=2.2 l=0.15
+**devattr s=22000,540 d=39600,1060
+X13 VDD a_n820_n620# a_n920_0# VDD sky130_fd_pr__pfet_01v8 ad=0.99 pd=5.3 as=0.55 ps=2.7 w=2.2 l=0.15
+**devattr s=22000,540 d=39600,1060
+X14 a_n920_0# a_n950_n620# CARRY_OUT VDD sky130_fd_pr__pfet_01v8 ad=0.55 pd=2.7 as=1.1 ps=5.4 w=2.2 l=0.15
+**devattr s=43900,1080 d=22000,540
+X15 SUM_OUT A a_n50_n590# GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.6 as=0.412 ps=2.4 w=1.1 l=0.15
+**devattr s=22000,640 d=11000,320
+.ends
+

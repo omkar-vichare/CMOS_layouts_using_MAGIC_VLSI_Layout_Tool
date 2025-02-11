@@ -1,0 +1,110 @@
+magic
+tech sky130A
+timestamp 1734806561
+<< nwell >>
+rect -70 95 85 245
+<< nmos >>
+rect 0 -10 15 45
+<< pmos >>
+rect 0 115 15 225
+<< ndiff >>
+rect -50 35 0 45
+rect -50 0 -35 35
+rect -15 0 0 35
+rect -50 -10 0 0
+rect 15 35 65 45
+rect 15 0 30 35
+rect 50 0 65 35
+rect 15 -10 65 0
+<< pdiff >>
+rect -50 215 0 225
+rect -50 180 -35 215
+rect -15 180 0 215
+rect -50 160 0 180
+rect -50 125 -35 160
+rect -15 125 0 160
+rect -50 115 0 125
+rect 15 215 65 225
+rect 15 180 30 215
+rect 50 180 65 215
+rect 15 160 65 180
+rect 15 125 30 160
+rect 50 125 65 160
+rect 15 115 65 125
+<< ndiffc >>
+rect -35 0 -15 35
+rect 30 0 50 35
+<< pdiffc >>
+rect -35 180 -15 215
+rect -35 125 -15 160
+rect 30 180 50 215
+rect 30 125 50 160
+<< poly >>
+rect 0 225 15 240
+rect 0 95 15 115
+rect -40 90 15 95
+rect -40 70 -30 90
+rect -10 70 15 90
+rect -40 65 15 70
+rect 0 45 15 65
+rect 0 -25 15 -10
+<< polycont >>
+rect -30 70 -10 90
+<< locali >>
+rect -45 280 -15 285
+rect -45 260 -40 280
+rect -20 260 -15 280
+rect -45 225 -15 260
+rect -45 215 -5 225
+rect -45 180 -35 215
+rect -15 180 -5 215
+rect -45 160 -5 180
+rect -45 125 -35 160
+rect -15 125 -5 160
+rect -45 115 -5 125
+rect 20 215 60 225
+rect 20 180 30 215
+rect 50 180 60 215
+rect 20 160 60 180
+rect 20 125 30 160
+rect 50 125 60 160
+rect 20 95 60 125
+rect -70 90 0 95
+rect -70 70 -30 90
+rect -10 70 0 90
+rect -70 65 0 70
+rect 20 65 85 95
+rect -45 35 -5 45
+rect -45 0 -35 35
+rect -15 0 -5 35
+rect -45 -10 -5 0
+rect 20 35 60 65
+rect 20 0 30 35
+rect 50 0 60 35
+rect 20 -10 60 0
+rect -45 -40 -15 -10
+rect -45 -60 -40 -40
+rect -20 -60 -15 -40
+rect -45 -65 -15 -60
+<< viali >>
+rect -40 260 -20 280
+rect -40 -60 -20 -40
+<< metal1 >>
+rect -70 280 85 285
+rect -70 260 -40 280
+rect -20 260 85 280
+rect -70 255 85 260
+rect -70 -40 85 -35
+rect -70 -60 -40 -40
+rect -20 -60 85 -40
+rect -70 -65 85 -60
+<< labels >>
+flabel locali 75 75 85 85 0 FreeSans 40 0 34 32 B
+port 2 nsew
+flabel locali -70 75 -60 85 0 FreeSans 40 0 -28 32 A
+port 1 nsew
+flabel metal1 60 265 70 275 0 FreeSans 40 0 26 108 VDD
+port 3 nsew
+flabel metal1 50 -55 60 -45 0 FreeSans 40 0 22 -20 GND
+port 5 nsew
+<< end >>

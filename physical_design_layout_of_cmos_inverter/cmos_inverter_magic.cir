@@ -1,0 +1,7 @@
+* cmos_inverter_magic.cir
+
+.include cmos_inverter.spice
+
+Xinv A B VDD GND cmos_inverter
+
+.end
